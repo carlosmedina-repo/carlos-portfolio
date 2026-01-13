@@ -4,6 +4,7 @@ import { IoOpenOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
 const WorkCard = ({ w }) => {
+
   return (
     <div>
       <Link to={w.site} target="_blank" className="work-link-group">
@@ -17,6 +18,7 @@ const WorkCard = ({ w }) => {
                     <FiGithub />
                   </Link>
                 )}
+                {console.log(w.gitlink, "gitlink")}
                 <Link className="work-link" to={w.site} target="_blank">
                   <IoOpenOutline />
                 </Link>
