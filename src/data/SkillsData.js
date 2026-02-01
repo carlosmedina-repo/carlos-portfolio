@@ -1,253 +1,95 @@
 import { DiJavascript1 } from "react-icons/di";
+import { FaFigma, FaReact } from "react-icons/fa";
 import {
-  FaCss3Alt,
-  FaFigma,
-  FaHtml5,
-  FaReact,
-  FaSass,
-} from "react-icons/fa";
-import {
-  SiAdobephotoshop,
-  SiFirebase,
-  SiFramer,
-  SiRedux,
-  SiStyledcomponents,
   SiTailwindcss,
   SiTypescript,
-  SiExpress,
   SiNodedotjs,
-  SiDjango,
-  SiMongodb,
-  SiMysql,
-  SiSqlite,
-  SiPhp,
-  SiMaterialui,
+  SiExpress,
+  SiNestjs,
   SiPython,
   SiGraphql,
   SiPostgresql,
+  SiMongodb,
+  SiMysql,
   SiRedis,
   SiDocker,
-  SiGithub,
-  SiGitlab,
-  SiJenkins,
-  SiNginx,
-  SiVercel,
-  SiCloudflare,
+  SiAmazonaws,
+  SiKubernetes,
+  SiTerraform,
+  SiGithubactions,
   SiJest,
   SiCypress,
-  SiPostman,
   SiSentry,
   SiDatadog,
+  SiPrometheus,
+  SiGrafana,
   SiOpenai,
-  SiStripe,
-  SiPaypal,
-  SiJira,
-  SiNestjs,
 } from "react-icons/si";
-import { TbBrandReactNative } from "react-icons/tb";
-import Gsap from "../vectors/gsap";
 
 const Frontend = [
-  {
-    name: "React Js",
-    icon: <FaReact />,
-  },
-  {
-    name: "React Native",
-    icon: <TbBrandReactNative />,
-  },
-  {
-    name: "TypeScript",
-    icon: <SiTypescript />,
-  },
-  {
-    name: "Redux",
-    icon: <SiRedux />,
-  },
-  {
-    name: "Tailwind",
-    icon: <SiTailwindcss />,
-  },
-  {
-    name: "Material UI",
-    icon: <SiMaterialui />,
-  },
-  {
-    name: "HTML",
-    icon: <FaHtml5 />,
-  },
-  {
-    name: "CSS",
-    icon: <FaCss3Alt />,
-  },
-  {
-    name: "Javascript",
-    icon: <DiJavascript1 />,
-  },
-  {
-    name: "Sass",
-    icon: <FaSass />,
-  },
-  {
-    name: "Styled Components",
-    icon: <SiStyledcomponents />,
-  },
-  {
-    name: "Framer Motion",
-    icon: <SiFramer />,
-  },
-  {
-    name: "GSAP",
-    icon: <Gsap />,
-  },
-  {
-    name: "Figma",
-    icon: <FaFigma />,
-  },
-  {
-    name: "Photoshop",
-    icon: <SiAdobephotoshop />,
-  },
+  { name: "React", icon: <FaReact /> },
+  { name: "Next.js", icon: <FaReact /> },
+  { name: "TypeScript", icon: <SiTypescript /> },
+  { name: "JavaScript (ES6+)", icon: <DiJavascript1 /> },
+  { name: "Tailwind CSS", icon: <SiTailwindcss /> },
+  { name: "Material UI", icon: <SiGrafana /> },
+  { name: "Responsive UI", icon: <FaFigma /> },
+  { name: "UX Design Principles", icon: <FaFigma /> },
+  { name: "Data Visualization", icon: <SiGraphql /> },
 ];
 
-const Backend = [
-  {
-    name: "Node Js",
-    icon: <SiNodedotjs />,
-  },
-  {
-    name: "Django",
-    icon: <SiDjango />,
-  },
-  {
-    name: "Express Js",
-    icon: <SiExpress />,
-  },
-  {
-    name: "NestJS",
-    icon: <SiNestjs />,
-  },
-  {
-    name: "Python (FastAPI, Flask)",
-    icon: <SiPython />,
-  },
-  {
-    name: "GraphQL",
-    icon: <SiGraphql />,
-  },
-  {
-    name: "PostgreSQL",
-    icon: <SiPostgresql />,
-  },
-  {
-    name: "MongoDB",
-    icon: <SiMongodb />,
-  },
-  {
-    name: "MySQL",
-    icon: <SiMysql />,
-  },
-  {
-    name: "SiSqlite",
-    icon: <SiSqlite />,
-  },
-  {
-    name: "Redis",
-    icon: <SiRedis />,
-  },
-  {
-    name: "PHP",
-    icon: <SiPhp />,
-  },
-  {
-    name: "Firebase",
-    icon: <SiFirebase />,
-  },
+const BackendAPIs = [
+  { name: "Node.js", icon: <SiNodedotjs /> },
+  { name: "NestJS", icon: <SiNestjs /> },
+  { name: "Express.js", icon: <SiExpress /> },
+  { name: "Python (FastAPI, Flask)", icon: <SiPython /> },
+  { name: "REST APIs", icon: <SiGraphql /> },
+  { name: "GraphQL", icon: <SiGraphql /> },
+  { name: "Microservices Architecture", icon: <SiDocker /> },
 ];
 
-const DevOpsCloud = [
-  {
-    name: "Docker",
-    icon: <SiDocker />,
-  },
-  {
-    name: "Github",
-    icon: <SiGithub />,
-  },
-  {
-    name: "GitLab CI/CD",
-    icon: <SiGitlab />,
-  },
-  {
-    name: "Jenkins",
-    icon: <SiJenkins />,
-  },
-  {
-    name: "Nginx",
-    icon: <SiNginx />,
-  },
-  {
-    name: "Vercel",
-    icon: <SiVercel />,
-  },
-  {
-    name: "Cloudflare",
-    icon: <SiCloudflare />,
-  },
+const DataAI = [
+  { name: "AI-driven Search", icon: <SiOpenai /> },
+  { name: "Document Analysis", icon: <SiOpenai /> },
+  { name: "Anomaly Detection", icon: <SiOpenai /> },
+  { name: "Event-driven Architecture", icon: <SiDocker /> },
+  { name: "Vector Databases (Pinecone, FAISS)", icon: <SiMongodb /> },
+  { name: "Graph-based Data Modeling", icon: <SiGraphql /> },
 ];
 
-const TestingPerformance = [
-  {
-    name: "Jest",
-    icon: <SiJest />,
-  },
-  {
-    name: "Cypress",
-    icon: <SiCypress />,
-  },
-  {
-    name: "Postman",
-    icon: <SiPostman />,
-  },
-  {
-    name: "Sentry",
-    icon: <SiSentry />,
-  },
-  {
-    name: "Datadog",
-    icon: <SiDatadog />,
-  },
+const Databases = [
+  { name: "PostgreSQL", icon: <SiPostgresql /> },
+  { name: "MongoDB", icon: <SiMongodb /> },
+  { name: "MySQL", icon: <SiMysql /> },
+  { name: "Redis", icon: <SiRedis /> },
+  { name: "Neo4j (Cypher)", icon: <SiGraphql /> },
 ];
 
-const Other = [
-  {
-    name: "OpenAI",
-    icon: <SiOpenai />,
-  },
-  {
-    name: "Stripe",
-    icon: <SiStripe />,
-  },
-  {
-    name: "PayPal",
-    icon: <SiPaypal />,
-  },
-  {
-    name: "Firebase",
-    icon: <SiFirebase />,
-  },
-  {
-    name: "Jira",
-    icon: <SiJira />,
-  },
+const CloudDevOps = [
+  { name: "AWS (Lambda, ECS, EKS, API Gateway, S3, RDS, CloudFront)", icon: <SiAmazonaws /> },
+  { name: "Docker", icon: <SiDocker /> },
+  { name: "Kubernetes", icon: <SiKubernetes /> },
+  { name: "GitHub Actions", icon: <SiGithubactions /> },
+  { name: "Terraform", icon: <SiTerraform /> },
+];
+
+const ObservabilityTesting = [
+  { name: "Jest", icon: <SiJest /> },
+  { name: "Cypress", icon: <SiCypress /> },
+  { name: "Playwright", icon: <SiCypress /> },
+  { name: "Sentry", icon: <SiSentry /> },
+  { name: "Datadog", icon: <SiDatadog /> },
+  { name: "CloudWatch", icon: <SiAmazonaws /> },
+  { name: "Prometheus", icon: <SiPrometheus /> },
 ];
 
 const SkillsData = {
   Frontend,
-  Backend,
-  DevOpsCloud,
-  TestingPerformance,
-  Other,
+  BackendAPIs,
+  DataAI,
+  Databases,
+  CloudDevOps,
+  ObservabilityTesting,
 };
 
 export default SkillsData;

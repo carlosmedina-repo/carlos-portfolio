@@ -1,3 +1,5 @@
+import HeroBg from "../images/hero-bg-1.jpg";
+
 const WorkExperienceData = [
     {
         title: "Full Stack Developer - Epam",
@@ -11,6 +13,7 @@ const WorkExperienceData = [
             "• Mentored junior engineers in TypeScript, clean architecture, and TDD, accelerating onboarding by 30% and improving overall code quality."
         ],
         date: "2024 - present",
+        image: HeroBg,
     },
     {
         title: "Full Stack Developer - Simbo",

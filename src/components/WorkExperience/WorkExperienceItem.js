@@ -11,6 +11,12 @@ const WorkExperienceItem = ({ title, description, date, tech, gitlink, site, ima
 
     return (
         <div className="work-experience-item">
+            {image && (
+              <motion.div className="work-experience-item-image" initial={{ opacity: 0 }} whileInView={fade}>
+                <img src={image} alt={title} />
+              </motion.div>
+            )}
+
             <motion.div
               className="work-experience-item-header"
               initial={{ opacity: 0 }}
@@ -24,7 +30,7 @@ const WorkExperienceItem = ({ title, description, date, tech, gitlink, site, ima
               className="work-experience-item-content"
               initial={{ opacity: 0 }}
               whileInView={fade}
-            >{description.map(row => (<p>{row}</p>))}</motion.div>
+            >{description.map((row, idx) => (<p key={idx}>{row}</p>))}</motion.div>
           </div>
     );
 }

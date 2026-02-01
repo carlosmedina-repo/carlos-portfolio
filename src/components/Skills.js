@@ -8,10 +8,11 @@ const Skills = () => {
 
   const {
     Frontend,
-    Backend,
-    DevOpsCloud,
-    TestingPerformance,
-    Other,
+    BackendAPIs,
+    DataAI,
+    Databases,
+    CloudDevOps,
+    ObservabilityTesting,
   } = SkillsData;
 
   const skillEffect = {
@@ -24,14 +25,15 @@ const Skills = () => {
 
   const tabData = [
     { id: "frontend", label: "Frontend", data: Frontend },
-    { id: "backend", label: "Backend", data: Backend },
-    { id: "devOpscloud", label: "DevOps & Cloud", data: DevOpsCloud },
+    { id: "backend", label: "Backend & APIs", data: BackendAPIs },
+    { id: "dataai", label: "Data & AI", data: DataAI },
     {
-      id: "testingperformance",
-      label: "Testing & Performance",
-      data: TestingPerformance,
+      id: "databases",
+      label: "Databases",
+      data: Databases,
     },
-    { id: "other", label: "Other", data: Other },
+    { id: "cloud&devops", label: "Cloud & DevOps", data: CloudDevOps },
+    { id: "observabilitytesting", label: "Observability & Testing", data: ObservabilityTesting },
   ];
 
   return (
@@ -46,7 +48,7 @@ const Skills = () => {
             <p className="heading-sub-text">What I work with</p>
             <p className="heading-text">My Skills</p>
           </motion.div>
-          
+
           <motion.div whileInView={skillEffect} initial={{ y: "-80px", opacity: 0 }} className="tabs">
             {tabData.map((tab) => (
               <button
