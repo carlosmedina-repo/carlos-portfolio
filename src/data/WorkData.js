@@ -205,7 +205,7 @@ const WorkData = [
 		gitlink: "https://github.com/carlosmedina-repo/COMP90018_Ass2",
 	},
 	{
-		title: "Personal Tax Calculator",c
+		title: "Personal Tax Calculator",
 		desc: "Built an interactive tax calculator with real-time calculations and smooth animations. Features include income tax brackets visualization, deduction calculations, and a modern UI.",
 		tech: ["Next.js", "React", "Framer Motion", "TypeScript"],
 		site: "https://personal-tax-calculator.vercel.app/",
