@@ -5,8 +5,6 @@ import WorkData from "../data/WorkData";
 import WorkCard from "./WorkCard";
 
 const Works = () => {
-  // const [activeTab, setActiveTab] = useState("react");
-
   const fade = {
     opacity: 1,
     transition: {
