@@ -200,7 +200,7 @@ const WorkData = [
 		title: "Safe Circle Android App",
 		desc: "Mobile safety app with Firebase, Google Maps API, Kotlin, and Jetpack Compose.",
 		tech: ["Kotlin", "Firebase", "Google Maps API", "Jetpack Compose"],
-		site: "https://github.com/carlosmedina-repo/COMP90018_Ass2",
+		gitlink: "https://github.com/carlosmedina-repo/COMP90018_Ass2",
 		image: SafeCircleImg,
 		gitlink: "",
 	},
