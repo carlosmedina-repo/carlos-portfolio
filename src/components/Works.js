@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "../styles/Works.css";
 import { motion } from "framer-motion";
 import WorkData from "../data/WorkData";
