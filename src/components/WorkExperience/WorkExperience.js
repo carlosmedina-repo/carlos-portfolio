@@ -1,18 +1,18 @@
 import React from "react";
 import "../../styles/WorkExperience.css";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import WorkExperienceItem from "./WorkExperienceItem";
 import WorkExperienceData from "../../data/WorkExperienceData";
 
 const WorkExperience = () => {
 
-  const horizontal = {
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 1.4,
-    },
-  };
+  // const horizontal = {
+    // y: 0,
+    // opacity: 1,
+    // transition: {
+      // duration: 1.4,
+    // },
+  // };
 
   return (
     <div className="work-experience" id='workexperience'>

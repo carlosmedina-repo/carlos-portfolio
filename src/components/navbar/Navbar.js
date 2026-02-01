@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/Navbar.css";
 import { FaHome, FaLaptop, FaGraduationCap } from "react-icons/fa";
-import { BiBookContent, BiServer, BiEnvelope } from "react-icons/bi";
+import { BiBookContent, BiServer } from "react-icons/bi";
 import { FiUser } from "react-icons/fi";
 import { Link } from "react-scroll";
 import ProfileImg from "../../images/profile_me.jpg";

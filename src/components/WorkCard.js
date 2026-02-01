@@ -3,11 +3,11 @@ import { FiGithub } from "react-icons/fi";
 import { IoOpenOutline } from "react-icons/io5";
 
 const WorkCard = ({ w }) => {
-  const openSite = (e) => {
+  // const openSite = (e) => {
     // prevent when clicking action buttons
-    if (e) e.stopPropagation();
-    if (w.site && w.site !== "#") window.open(w.site, "_blank");
-  };
+    // if (e) e.stopPropagation();
+    // if (w.site && w.site !== "#") window.open(w.site, "_blank");
+  // };
 
   return (
     <div>
