@@ -1,7 +1,6 @@
 import React from 'react';
 import "../styles/About.css"
 import { motion } from "framer-motion";
-import ProfileImg from '../images/profile_me.jpg'
 
 const About = () => {  
   
@@ -21,14 +20,11 @@ const About = () => {
                   </motion.div>
                   <div className="split-about">
                     <motion.div initial={{x: '-100%', opacity: 0}} whileInView={horizontal} className="about-content">
-                      <p>Full Stack Engineer with 7+ years of professional experience building, scaling, and maintaining modern web applications using Next.js, React, Node.js, and TypeScript. Strong background in server-side rendering, static site generation, REST and GraphQL APIs, and cloud-native architectures. Proven ability to deliver high-performance, user-centric products and contribute to engineering best practices in fast-paced environments.</p>
+                      <p>Full Stack Engineer with 5+ years of experience building high-performance distributed systems, scalable backend APIs, and modern frontend applications. Strong focus on Rust-based backend architectures and React/Next.js ecosystems, with hands-on experience delivering production-grade features in fast-paced engineering teams.</p>
                       <br />
-                      <p>Experience designing secure authentication and authorization flows (JWT, OAuth2, biometric verification), deploying serverless and containerized services on AWS (Lambda, ECS, EKS, S3, RDS, API Gateway, CloudFront), and implementing CI/CD pipelines and observability with GitHub Actions, CloudWatch, Prometheus, and Grafana.</p>
+                      <p>Experienced in designing and shipping real-time, event-driven systems, API layers, and cloud-native services with a strong emphasis on performance, scalability, and clean architecture.</p>
                       <br />
-                      <p>I focus on performance, maintainability, and collaboration — mentoring engineers, improving development workflows, and partnering with product and design teams to build accessible, reliable, and scalable user experiences.</p>
-                    </motion.div>
-                    <motion.div initial={{x: '50', opacity: 0}} whileInView={horizontal}  className='about-img'>
-                        <img src={ProfileImg} alt="Profile" />
+                      <p>Actively working at the intersection of Web3, AI, and developer platforms, contributing to early-stage and growth-stage products with a focus on building resilient systems and intuitive user experiences.</p>
                     </motion.div>
                   </div>
               </div>

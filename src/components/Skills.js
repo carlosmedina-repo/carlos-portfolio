@@ -7,12 +7,10 @@ const Skills = () => {
   const [activeTab, setActiveTab] = useState("frontend");
 
   const {
+    Backend,
     Frontend,
-    BackendAPIs,
-    DataAI,
-    Databases,
-    CloudDevOps,
-    ObservabilityTesting,
+    Web3Distributed,
+    SystemDesign,
   } = SkillsData;
 
   const skillEffect = {
@@ -25,15 +23,13 @@ const Skills = () => {
 
   const tabData = [
     { id: "frontend", label: "Frontend", data: Frontend },
-    { id: "backend", label: "Backend & APIs", data: BackendAPIs },
-    { id: "dataai", label: "Data & AI", data: DataAI },
+    { id: "backend", label: "Backend & APIs", data: Backend },
+    { id: "web3distributed", label: "Web3 & Distributed Systems", data: Web3Distributed },
     {
-      id: "databases",
-      label: "Databases",
-      data: Databases,
+      id: "SystemDesign",
+      label: "System Design & Architecture",
+      data: SystemDesign,
     },
-    { id: "cloud&devops", label: "Cloud & DevOps", data: CloudDevOps },
-    { id: "observabilitytesting", label: "Observability & Testing", data: ObservabilityTesting },
   ];
 
   return (

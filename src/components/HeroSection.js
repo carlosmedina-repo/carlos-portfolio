@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import "../styles/HeroSection.css";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { BiDownload } from "react-icons/bi";
 import { AiOutlineArrowUp } from "react-icons/ai";
 import { animateScroll as scroll } from "react-scroll";
 import { motion } from "framer-motion";
-import CV from "../data/Carlos Medina.pdf";
 
 const HeroSection = ({ nav, handleNav }) => {
 	const scrollToTop = () => {
@@ -100,14 +98,6 @@ const HeroSection = ({ nav, handleNav }) => {
 					I'm a <span className='hero-desc-sub'>senior full stack Developer.</span>
 				</p>
 			</motion.div>
-			<motion.span
-				variants={contactVariants}
-				initial='hidden'
-				whileInView='visible'>
-				<a href={CV} download='Carlos Medina CV' className='hero-contact'>
-					Download CV <BiDownload className='cv-icon' />
-				</a>
-			</motion.span>
 		</div>
 	);
 };

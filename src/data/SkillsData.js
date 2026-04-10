@@ -24,72 +24,57 @@ import {
   SiPrometheus,
   SiGrafana,
   SiOpenai,
+  SiRust,
 } from "react-icons/si";
+
+const Backend = [
+  { name: "Rust", icon: <SiRust /> },
+  { name: "actix", icon: <SiRust /> },
+  { name: "tokio", icon: <SiRust /> },
+  { name: "diesel", icon: <SiRust /> },
+  { name: "async-graphql", icon: <SiGraphql /> },
+  { name: "Node.js", icon: <SiNodedotjs /> },
+  { name: "TypeScript", icon: <SiTypescript /> },
+  { name: "REST APIs", icon: <SiGraphql /> },
+  { name: "GraphQL", icon: <SiGraphql /> },
+  { name: "Microservices", icon: <SiDocker /> },
+  { name: "Event-driven architecture", icon: <SiDocker /> },
+];
 
 const Frontend = [
   { name: "React", icon: <FaReact /> },
-  { name: "Next.js", icon: <FaReact /> },
+  { name: "nextjs", icon: <FaReact /> },
+  { name: "tailwind", icon: <SiTailwindcss /> },
+  { name: "chadcn", icon: <SiTailwindcss /> },
+  { name: "apollo-client", icon: <SiGraphql /> },
+  { name: "next-auth", icon: <SiNodedotjs /> },
+  { name: "usehooks", icon: <FaReact /> },
+  { name: "JavaScript", icon: <DiJavascript1 /> },
   { name: "TypeScript", icon: <SiTypescript /> },
-  { name: "JavaScript (ES6+)", icon: <DiJavascript1 /> },
-  { name: "Tailwind CSS", icon: <SiTailwindcss /> },
-  { name: "Material UI", icon: <SiGrafana /> },
-  { name: "Responsive UI", icon: <FaFigma /> },
-  { name: "UX Design Principles", icon: <FaFigma /> },
-  { name: "Data Visualization", icon: <SiGraphql /> },
+  { name: "responsive UI architecture", icon: <FaFigma /> },
 ];
 
-const BackendAPIs = [
-  { name: "Node.js", icon: <SiNodedotjs /> },
-  { name: "NestJS", icon: <SiNestjs /> },
-  { name: "Express.js", icon: <SiExpress /> },
-  { name: "Python (FastAPI, Flask)", icon: <SiPython /> },
-  { name: "REST APIs", icon: <SiGraphql /> },
-  { name: "GraphQL", icon: <SiGraphql /> },
-  { name: "Microservices Architecture", icon: <SiDocker /> },
+const Web3Distributed = [
+  { name: "Smart contract integration", icon: <SiOpenai /> },
+  { name: "decentralized application architecture", icon: <SiDocker /> },
+  { name: "wallet authentication flows", icon: <SiOpenai /> },
+  { name: "token-based ecosystems", icon: <SiOpenai /> },
+  { name: "distributed system design", icon: <SiDocker /> },
 ];
 
-const DataAI = [
-  { name: "AI-driven Search", icon: <SiOpenai /> },
-  { name: "Document Analysis", icon: <SiOpenai /> },
-  { name: "Anomaly Detection", icon: <SiOpenai /> },
-  { name: "Event-driven Architecture", icon: <SiDocker /> },
-  { name: "Vector Databases (Pinecone, FAISS)", icon: <SiMongodb /> },
-  { name: "Graph-based Data Modeling", icon: <SiGraphql /> },
-];
-
-const Databases = [
-  { name: "PostgreSQL", icon: <SiPostgresql /> },
-  { name: "MongoDB", icon: <SiMongodb /> },
-  { name: "MySQL", icon: <SiMysql /> },
-  { name: "Redis", icon: <SiRedis /> },
-  { name: "Neo4j (Cypher)", icon: <SiGraphql /> },
-];
-
-const CloudDevOps = [
-  { name: "AWS (Lambda, ECS, EKS, API Gateway, S3, RDS, CloudFront)", icon: <SiAmazonaws /> },
-  { name: "Docker", icon: <SiDocker /> },
-  { name: "Kubernetes", icon: <SiKubernetes /> },
-  { name: "GitHub Actions", icon: <SiGithubactions /> },
-  { name: "Terraform", icon: <SiTerraform /> },
-];
-
-const ObservabilityTesting = [
-  { name: "Jest", icon: <SiJest /> },
-  { name: "Cypress", icon: <SiCypress /> },
-  { name: "Playwright", icon: <SiCypress /> },
-  { name: "Sentry", icon: <SiSentry /> },
-  { name: "Datadog", icon: <SiDatadog /> },
-  { name: "CloudWatch", icon: <SiAmazonaws /> },
-  { name: "Prometheus", icon: <SiPrometheus /> },
+const SystemDesign = [
+  { name: "Scalable backend systems", icon: <SiDocker /> },
+  { name: "API design", icon: <SiGraphql /> },
+  { name: "low-latency services", icon: <SiRedis /> },
+  { name: "real-time communication systems", icon: <SiRedis /> },
+  { name: "modular architecture", icon: <SiDocker /> },
 ];
 
 const SkillsData = {
+  Backend,
   Frontend,
-  BackendAPIs,
-  DataAI,
-  Databases,
-  CloudDevOps,
-  ObservabilityTesting,
+  Web3Distributed,
+  SystemDesign,
 };
 
 export default SkillsData;
