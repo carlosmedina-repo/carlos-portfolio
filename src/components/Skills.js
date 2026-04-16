@@ -4,13 +4,17 @@ import { motion } from "framer-motion";
 import SkillsData from "../data/SkillsData";
 
 const Skills = () => {
-  const [activeTab, setActiveTab] = useState("frontend");
+  const [activeTab, setActiveTab] = useState("webflow");
 
   const {
-    Backend,
-    Frontend,
-    Web3Distributed,
-    SystemDesign,
+    Webflow,
+    FrontEndDevelopment,
+    DesignCollaboration,
+    SEOAccessibility,
+    TrackingAnalytics,
+    CompliancePrivacy,
+    OptimizationCRO,
+    DevelopmentTools
   } = SkillsData;
 
   const skillEffect = {
@@ -22,14 +26,18 @@ const Skills = () => {
   };
 
   const tabData = [
-    { id: "frontend", label: "Frontend", data: Frontend },
-    { id: "backend", label: "Backend & APIs", data: Backend },
-    { id: "web3distributed", label: "Web3 & Distributed Systems", data: Web3Distributed },
+    { id: "webflow", label: "Webflow", data: Webflow },
+    { id: "frontend", label: "Frontend Development", data: FrontEndDevelopment },
+    { id: "designcollaboration", label: "Design Collaboration", data: DesignCollaboration },
     {
-      id: "SystemDesign",
-      label: "System Design & Architecture",
-      data: SystemDesign,
+      id: "seoaccessibility",
+      label: "SEO Accessibility",
+      data: SEOAccessibility,
     },
+    { id: "trackinganalytics", label: "Tracking & Analytics", data: TrackingAnalytics },
+    { id: "complianceprivacy", label: "Compliance & Privacy", data: CompliancePrivacy },
+    { id: "optimizationcro", label: "Optimization CRO", data: OptimizationCRO },
+    { id: "developmenttools", label: "Development Tools", data: DevelopmentTools },
   ];
 
   return (
