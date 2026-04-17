@@ -37,20 +37,6 @@ const HeroSection = ({ nav, handleNav }) => {
 		},
 	};
 
-	const contactVariants = {
-		hidden: {
-			opacity: 0,
-			x: "-50%",
-		},
-		visible: {
-			opacity: 1,
-			x: 0,
-			transition: {
-				duration: 1.4,
-			},
-		},
-	};
-
 	const menuVariants = {
 		hidden: {
 			opacity: 0,

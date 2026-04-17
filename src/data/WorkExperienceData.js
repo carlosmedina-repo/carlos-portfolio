@@ -18,27 +18,27 @@ const WorkExperienceData = [
         image: HeroBg,
     },
     {
-        title: "Simbo — Front-End Developer",
+        title: "Simbo — Webflow Developer",
         description: [
-            "• Designed and developed CMS-driven marketing websites in Webflow, delivering scalable collections for blogs, landing pages, and product content with structured taxonomy.",
-            "• Converted Figma prototypes into responsive Webflow builds with a pixel-perfect approach, maintaining consistency across desktop, tablet, and mobile breakpoints.",
-            "• Extended Webflow functionality with custom HTML5, CSS3, and JavaScript to support custom navigation behaviors, interactive UI components, and embedded forms.",
-            "• Integrated third-party marketing and analytics tools including Google Tag Manager, Meta tracking pixels, and conversion events to support performance marketing campaigns.",
-            "• Supported experimentation initiatives by collaborating with CRO teams to deploy A/B tests through third-party platforms, increasing funnel conversion rates by 10%.",
-            "• Improved accessibility compliance by applying WCAG-friendly design principles, including semantic structure, keyboard navigation support, and ARIA labeling.",
-            "• Optimized site speed and performance by reducing unused assets, compressing media, and improving Webflow component reuse, reducing load time by 35%.",
-            "• Troubleshot and resolved production bugs across multiple client websites, ensuring stable releases and improved client satisfaction."
+            "• Designed and developed 20+ responsive Webflow websites for SaaS and service-based products with consistent pixel-perfect execution.",
+            "• Translated Figma design systems into reusable Webflow components, reducing production time by 30%.",
+            "• Built scalable CMS structures enabling marketing teams to independently manage 5,000+ content items.",
+            "• Implemented custom JavaScript and CSS enhancements to extend Webflow native functionality for advanced UI interactions.",
+            "• Integrated OneTrust and Transcend consent management solutions across multiple web platforms ensuring compliance readiness.",
+            "• Improved organic visibility by 25% through structured SEO implementation including metadata, schema markup, and internal linking strategies.",
+            "• Partnered with product teams to align technical execution with business goals and launch timelines."
         ],
         date: "01/2020 - 12/2023",
     },
     {
         title: "Coderio — Front-End Developer",
         description: [    
-            "• Developed responsive web pages using HTML5, CSS3, and JavaScript, supporting marketing websites and web applications for multiple client projects.",
-            "• Assisted in integrating design handoffs from Figma into responsive layouts, ensuring consistency with branding and UI guidelines.",
-            "• Supported SEO improvements by implementing clean URL structures, optimized metadata, and performance-friendly page structures.",
-            "• Collaborated with cross-functional teams to define requirements, resolve UI issues, and deliver production-ready web experiences under tight deadlines.",
-            "• Contributed to reusable UI component libraries, improving development efficiency and reducing repeated styling work by 20%."
+            "• Developed responsive web interfaces using HTML5, CSS3, and JavaScript for 10+ client projects across multiple industries.",
+            "• Converted UI/UX designs into functional, responsive pages with consistent cross-browser compatibility.",
+            "• Built reusable UI components that reduced front-end development effort by 20%.",
+            "• Supported integration of third-party APIs and tracking scripts for marketing and analytics enablement.",
+            "• Collaborated with designers to improve UI consistency and design system adoption across projects.",
+            "• Ensured fast-loading, mobile-first web experiences across all delivered applications."
         ],
        date: "01/2019 - 12/2019",
     },

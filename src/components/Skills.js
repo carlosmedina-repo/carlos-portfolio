@@ -8,13 +8,11 @@ const Skills = () => {
 
   const {
     Webflow,
-    FrontEndDevelopment,
-    DesignCollaboration,
-    SEOAccessibility,
-    TrackingAnalytics,
-    CompliancePrivacy,
-    OptimizationCRO,
-    DevelopmentTools
+    Frontend,
+    DesignUX,
+    PerformanceSEO,
+    IntegrationsMarte,
+    CollaborationDelivery
   } = SkillsData;
 
   const skillEffect = {
@@ -27,17 +25,15 @@ const Skills = () => {
 
   const tabData = [
     { id: "webflow", label: "Webflow", data: Webflow },
-    { id: "frontend", label: "Frontend Development", data: FrontEndDevelopment },
-    { id: "designcollaboration", label: "Design Collaboration", data: DesignCollaboration },
+    { id: "frontend", label: "Frontend", data: Frontend },
+    { id: "designux", label: "DesignUX", data: DesignUX },
     {
-      id: "seoaccessibility",
-      label: "SEO Accessibility",
-      data: SEOAccessibility,
+      id: "performanceseo",
+      label: "Performance & SEO",
+      data: PerformanceSEO,
     },
-    { id: "trackinganalytics", label: "Tracking & Analytics", data: TrackingAnalytics },
-    { id: "complianceprivacy", label: "Compliance & Privacy", data: CompliancePrivacy },
-    { id: "optimizationcro", label: "Optimization CRO", data: OptimizationCRO },
-    { id: "developmenttools", label: "Development Tools", data: DevelopmentTools },
+    { id: "integration", label: "Integrations", data: IntegrationsMarte },
+    { id: "collaboration", label: "Collaboration & Delivery", data: CollaborationDelivery },
   ];
 
   return (
