@@ -20,7 +20,7 @@ const About = () => {
                   </motion.div>
                   <div className="split-about">
                     <motion.div initial={{x: '-100%', opacity: 0}} whileInView={horizontal} className="about-content">
-                      <p>Frontend-focused Full Stack Developer with 3+ years of experience building scalable web applications using Next.js, React, and modern frontend architecture patterns.</p>
+                      <p>Frontend-focused Full Stack Developer with 10+ years of experience building scalable web applications using Next.js, React, and modern frontend architecture patterns.</p>
                       <br />
                       <p>Strong expertise in Zustand, TanStack Query, and Tailwind CSS, with hands-on experience in backend integration, REST APIs, and full-stack feature delivery.</p>
                       <br />
