@@ -20,11 +20,11 @@ const About = () => {
                   </motion.div>
                   <div className="split-about">
                     <motion.div initial={{x: '-100%', opacity: 0}} whileInView={horizontal} className="about-content">
-                      <p>Webflow Developer with 6+ years of experience delivering high-performing, conversion-focused marketing websites and CMS-driven platforms using Webflow, JavaScript, HTML5, and CSS3. Specialized in translating Figma designs into pixel-perfect, responsive Webflow builds with advanced animations, custom code embeds, and scalable CMS architecture.</p>
+                      <p>Frontend-focused Full Stack Developer with 3+ years of experience building scalable web applications using Next.js, React, and modern frontend architecture patterns.</p>
                       <br />
-                      <p>Strong background collaborating with Product Managers, CRO teams, designers, and stakeholders to define technical requirements, improve user experience, and implement A/B testing experiments. Proven ability integrating Google Tag Manager, Segment CDP, Facebook Ads API, and compliance platforms such as OneTrust to support tracking accuracy, privacy compliance, and growth initiatives.</p>
+                      <p>Strong expertise in Zustand, TanStack Query, and Tailwind CSS, with hands-on experience in backend integration, REST APIs, and full-stack feature delivery.</p>
                       <br />
-                      <p>Experienced in optimizing performance, SEO, and accessibility (WCAG), ensuring websites meet modern web standards across devices and browsers. Adept at troubleshooting production issues, improving development workflows, and supporting clients with scalable, maintainable Webflow solutions.</p>
+                      <p>Proven ability to improve performance, build reusable UI systems, and deliver production-grade applications in Agile environments.</p>
                     </motion.div>
                   </div>
               </div>

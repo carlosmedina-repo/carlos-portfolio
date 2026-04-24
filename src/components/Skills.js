@@ -4,15 +4,15 @@ import { motion } from "framer-motion";
 import SkillsData from "../data/SkillsData";
 
 const Skills = () => {
-  const [activeTab, setActiveTab] = useState("webflow");
+  const [activeTab, setActiveTab] = useState("frontend");
 
   const {
-    Webflow,
     Frontend,
-    DesignUX,
-    PerformanceSEO,
-    IntegrationsMarte,
-    CollaborationDelivery
+    Backend,
+    StateManagement,
+    DataFetching,
+    Styling,
+    Architecture,
   } = SkillsData;
 
   const skillEffect = {
@@ -24,16 +24,12 @@ const Skills = () => {
   };
 
   const tabData = [
-    { id: "webflow", label: "Webflow", data: Webflow },
     { id: "frontend", label: "Frontend", data: Frontend },
-    { id: "designux", label: "DesignUX", data: DesignUX },
-    {
-      id: "performanceseo",
-      label: "Performance & SEO",
-      data: PerformanceSEO,
-    },
-    { id: "integration", label: "Integrations", data: IntegrationsMarte },
-    { id: "collaboration", label: "Collaboration & Delivery", data: CollaborationDelivery },
+    { id: "backend", label: "Backend", data: Backend },
+    { id: "state", label: "State Management", data: StateManagement },
+    { id: "datafetching", label: "Data Fetching", data: DataFetching },
+    { id: "styling", label: "Styling", data: Styling },
+    { id: "architecture", label: "Architecture", data: Architecture },
   ];
 
   return (

@@ -1,71 +1,72 @@
 import { DiJavascript1 } from "react-icons/di";
-import { FaFigma, FaGitAlt } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
 import {
   SiTailwindcss,
   SiHtml5,
   SiCss3,
-  SiGoogleanalytics,
+  SiReact,
+  SiTypescript,
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb,
+  SiRedux,
+  SiMui,
 } from "react-icons/si";
 
-const Webflow = [
-  { name: "Webflow CMS Architecture", icon: <SiTailwindcss /> },
-  { name: "Webflow Interactions", icon: <SiTailwindcss /> },
-  { name: "Webflow Animations", icon: <SiTailwindcss /> },
-  { name: "Responsive Design", icon: <SiTailwindcss /> },
-  { name: "Pixel-Perfect Development", icon: <SiTailwindcss /> },
-  { name: "Scalable Component Systems", icon: <SiTailwindcss /> },
-];
-
 const Frontend = [
+  { name: "Next.js", icon: <SiReact /> },
+  { name: "React.js", icon: <SiReact /> },
+  { name: "JavaScript (ES6+)", icon: <DiJavascript1 /> },
+  { name: "TypeScript", icon: <SiTypescript /> },
   { name: "HTML5", icon: <SiHtml5 /> },
   { name: "CSS3", icon: <SiCss3 /> },
-  { name: "JavaScript", icon: <DiJavascript1 /> },
-  { name: "Custom Code Embeds", icon: <DiJavascript1 /> },
-  { name: "API Integrations", icon: <DiJavascript1 /> },
-  { name: "UI Enhancement Scripting", icon: <DiJavascript1 /> },
 ];
 
-const DesignUX = [
-  { name: "Figma", icon: <FaFigma /> },
-  { name: "Design Systems", icon: <FaFigma /> },
-  { name: "UX Translation", icon: <FaFigma /> },
-  { name: "Responsive UI Development", icon: <FaFigma /> },
-  { name: "Pixel-Perfect Implementation", icon: <FaFigma /> },
-  { name: "Component-Based Design Alignment", icon: <FaFigma /> },
+const Backend = [
+  { name: "Node.js", icon: <SiNodedotjs /> },
+  { name: "Express.js", icon: <SiExpress /> },
+  { name: "REST APIs", icon: <DiJavascript1 /> },
+  { name: "Authentication (JWT)", icon: <DiJavascript1 /> },
+  { name: "MongoDB / SQL", icon: <SiMongodb /> },
 ];
 
-const PerformanceSEO = [
-  { name: "SEO Best Practices", icon: <SiGoogleanalytics /> },
-  { name: "Core Web Vitals Optimization", icon: <SiGoogleanalytics /> },
-  { name: "WCAG Accessibility", icon: <SiGoogleanalytics /> },
-  { name: "Performance Optimization", icon: <SiGoogleanalytics /> },
-  { name: "Structured Metadata Implementation", icon: <SiGoogleanalytics /> },
+const StateManagement = [
+  { name: "Zustand", icon: <SiRedux /> },
+  { name: "Redux", icon: <SiRedux /> },
+  { name: "Global State Architecture", icon: <DiJavascript1 /> },
+  { name: "Client-State Optimization", icon: <DiJavascript1 /> },
 ];
 
-const IntegrationsMarte = [
-  { name: "Google Tag Manager", icon: <SiGoogleanalytics /> },
-  { name: "Segment CDP", icon: <SiGoogleanalytics /> },
-  { name: "Facebook Ads API", icon: <SiGoogleanalytics /> },
-  { name: "OneTrust", icon: <SiGoogleanalytics /> },
-  { name: "Transcend", icon: <SiGoogleanalytics /> },
-  { name: "A/B Testing Platforms (Optimizely, VWO)", icon: <SiGoogleanalytics /> },
+const DataFetching = [
+  { name: "TanStack Query", icon: <SiReact /> },
+  { name: "React Query", icon: <SiReact /> },
+  { name: "Caching Strategies", icon: <DiJavascript1 /> },
+  { name: "Network Request Optimization", icon: <DiJavascript1 /> },
 ];
 
-const CollaborationDelivery = [
-  { name: "Cross-Functional Collaboration", icon: <DiJavascript1 /> },
-  { name: "Product Requirement Translation", icon: <DiJavascript1 /> },
-  { name: "CRO Alignment", icon: <SiGoogleanalytics /> },
-  { name: "Agile Delivery Workflows", icon: <FaGitAlt /> },
-  { name: "Stakeholder Communication", icon: <DiJavascript1 /> },
+const Styling = [
+  { name: "Tailwind CSS", icon: <SiTailwindcss /> },
+  { name: "Responsive UIs", icon: <SiTailwindcss /> },
+  { name: "Component Styling", icon: <SiTailwindcss /> },
+  { name: "CSS Architecture", icon: <SiCss3 /> },
+];
+
+const Architecture = [
+  { name: "Full Stack Integration", icon: <FaGitAlt /> },
+  { name: "API Design", icon: <DiJavascript1 /> },
+  { name: "Component Architecture", icon: <SiReact /> },
+  { name: "SSR & Code Splitting", icon: <SiReact /> },
+  { name: "Caching & Lazy Loading", icon: <SiReact /> },
+  { name: "Git, GitHub, Jira, Agile", icon: <FaGitAlt /> },
 ];
 
 const SkillsData = {
-  Webflow,
   Frontend,
-  DesignUX,
-  PerformanceSEO,
-  IntegrationsMarte,
-  CollaborationDelivery,
+  Backend,
+  StateManagement,
+  DataFetching,
+  Styling,
+  Architecture,
 };
 
 export default SkillsData;

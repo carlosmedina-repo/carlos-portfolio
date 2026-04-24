@@ -2,45 +2,39 @@ import HeroBg from "../images/hero-bg-1.jpg";
 
 const WorkExperienceData = [
     {
-        title: "Globant — Webflow Developer",
+        title: "Globant — Frontend Developer",
         description: [
-            "• Built and maintained 15+ responsive Webflow websites by translating Figma designs into pixel-perfect, production-ready layouts with reusable components and scalable CMS collections.",
-            "• Developed complex Webflow interactions and animations using custom JavaScript embeds, enhancing landing page engagement and reducing bounce rate by 18%.",
-            "• Implemented SEO best practices including structured heading hierarchy, optimized metadata, schema markup, and improved Core Web Vitals, increasing organic traffic by 25%.",
-            "• Integrated Google Tag Manager, Segment CDP, and event tracking systems to support conversion analytics and accurate marketing attribution across platforms.",
-            "• Partnered with CRO teams to integrate A/B testing tools and deploy experiments, improving lead conversion rate by 12% through iterative landing page enhancements.",
-            "• Configured privacy and compliance workflows using OneTrust, ensuring cookie consent management and regulatory alignment across multiple client domains.",
-            "• Conducted cross-browser and cross-device debugging across Chrome, Safari, Firefox, and mobile breakpoints, reducing production UI issues by 30%.",
-            "• Collaborated with Product Managers and design teams to translate business requirements into technical requirements, ensuring delivery aligned with timelines and branding standards.",
-            "• Provided ongoing troubleshooting and technical support for client website issues, resolving an average of 20+ tickets monthly."
+            "• Developed and maintained scalable frontend applications using Next.js, improving page load performance by 35% through SSR and code splitting.",
+            "• Built reusable UI components with Tailwind CSS, reducing development time by 25% across multiple product modules.",
+            "• Implemented global state management using Zustand, improving state handling efficiency and reducing unnecessary re-renders by 40%.",
+            "• Integrated TanStack React Query for API data handling, reducing network request duplication and improving caching efficiency by 30%.",
+            "• Collaborated with backend and design teams to deliver 10+ production features in an Agile environment."
         ],
-        date: "01/2024 - 03/2026",
+        date: "01/2024 – 03/2026",
         image: HeroBg,
     },
     {
-        title: "Simbo — Webflow Developer",
+        title: "Simbo — Frontend Developer",
         description: [
-            "• Designed and developed 20+ responsive Webflow websites for SaaS and service-based products with consistent pixel-perfect execution.",
-            "• Translated Figma design systems into reusable Webflow components, reducing production time by 30%.",
-            "• Built scalable CMS structures enabling marketing teams to independently manage 5,000+ content items.",
-            "• Implemented custom JavaScript and CSS enhancements to extend Webflow native functionality for advanced UI interactions.",
-            "• Integrated OneTrust and Transcend consent management solutions across multiple web platforms ensuring compliance readiness.",
-            "• Improved organic visibility by 25% through structured SEO implementation including metadata, schema markup, and internal linking strategies.",
-            "• Partnered with product teams to align technical execution with business goals and launch timelines."
+            "• Developed responsive web applications using React and Next.js, serving 50K+ monthly active users.",
+            "• Improved application performance by 45% by optimizing rendering logic and implementing lazy loading strategies.",
+            "• Built dynamic dashboards with real-time data updates using React Query and WebSocket integrations.",
+            "• Designed and maintained UI systems using Tailwind CSS, ensuring consistent design across 15+ modules.",
+            "• Worked closely with product teams to translate requirements into scalable frontend architecture."
         ],
-        date: "01/2020 - 12/2023",
+        date: "01/2020 – 12/2023",
     },
     {
-        title: "Coderio — Front-End Developer",
-        description: [    
-            "• Developed responsive web interfaces using HTML5, CSS3, and JavaScript for 10+ client projects across multiple industries.",
-            "• Converted UI/UX designs into functional, responsive pages with consistent cross-browser compatibility.",
-            "• Built reusable UI components that reduced front-end development effort by 20%.",
-            "• Supported integration of third-party APIs and tracking scripts for marketing and analytics enablement.",
-            "• Collaborated with designers to improve UI consistency and design system adoption across projects.",
-            "• Ensured fast-loading, mobile-first web experiences across all delivered applications."
+        title: "Coderio — Full Stack Developer",
+        description: [
+            "• Designed and developed full-stack web applications using React.js (frontend) and Node.js/Express APIs (backend), delivering 8+ end-to-end features.",
+            "• Built and maintained RESTful APIs for core business modules, improving data retrieval efficiency by 30%.",
+            "• Integrated frontend applications with backend services and databases, ensuring seamless data flow and system reliability.",
+            "• Implemented authentication and authorization flows (JWT-based), improving application security across user roles.",
+            "• Developed reusable frontend components and connected them with backend services, reducing feature delivery time by 25%.",
+            "• Collaborated with cross-functional teams to design scalable architecture for production-grade applications."
         ],
-       date: "01/2019 - 12/2019",
+       date: "01/2017 – 12/2019",
     },
 ];
 
