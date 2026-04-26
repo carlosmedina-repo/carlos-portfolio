@@ -9,9 +9,10 @@ const Skills = () => {
   const {
     Frontend,
     Backend,
-    StateManagement,
-    DataFetching,
-    Styling,
+    DataVisualization,
+    Databases,
+    CloudInfra,
+    Tools,
     Architecture,
   } = SkillsData;
 
@@ -26,9 +27,10 @@ const Skills = () => {
   const tabData = [
     { id: "frontend", label: "Frontend", data: Frontend },
     { id: "backend", label: "Backend", data: Backend },
-    { id: "state", label: "State Management", data: StateManagement },
-    { id: "datafetching", label: "Data Fetching", data: DataFetching },
-    { id: "styling", label: "Styling", data: Styling },
+    { id: "datavisualization", label: "Data Visualization", data: DataVisualization },
+    { id: "databases", label: "Databases", data: Databases },
+    { id: "cloudinfra", label: "Cloud Infrastructure", data: CloudInfra },
+    { id: "tools", label: "Tools", data: Tools },
     { id: "architecture", label: "Architecture", data: Architecture },
   ];
 
