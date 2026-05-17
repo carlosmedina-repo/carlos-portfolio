@@ -98,7 +98,6 @@
 	letter-spacing: 0.05em;
 }
 
-.menu-icon,
 .to-top-icon {
 	padding: 0.7rem;
 	cursor: pointer;
@@ -111,23 +110,6 @@
 	transition: all 0.4s ease;
 	z-index: 50;
 	background-color: var(--nav-blue);
-}
-
-.menu-icon {
-	position: fixed;
-	top: 1rem;
-	right: 1rem;
-}
-
-.menu-icon:hover {
-	background-color: var(--nav-blue-shade);
-}
-
-.cv-icon {
-	margin-left: 0.5rem;
-}
-
-.to-top-icon {
 	position: fixed;
 	bottom: 1rem;
 	right: 1rem;
@@ -135,6 +117,10 @@
 
 .to-top-icon:hover {
 	background-color: var(--nav-blue-shade);
+}
+
+.cv-icon {
+	margin-left: 0.5rem;
 }
 
 .show {
@@ -148,7 +134,6 @@
 }
 
 @media screen and (max-width: 768px) {
-	.menu-icon,
 	.to-top-icon {
 		font-size: 1rem;
 	}
@@ -179,7 +164,6 @@
 		font-size: 80%;
 	}
 
-	.menu-icon,
 	.to-top-icon {
 		font-size: 1rem;
 		padding: 0.6rem;

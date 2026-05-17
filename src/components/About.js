@@ -20,11 +20,11 @@ const About = () => {
                   </motion.div>
                   <div className="split-about">
                     <motion.div initial={{x: '-100%', opacity: 0}} whileInView={horizontal} className="about-content">
-                      <p>Full stack engineer with 7+ years of experience building production-grade web applications, internal tools, and data-driven dashboards.</p>
+                      <p>Frontend Developer with 9+ years of experience building responsive, production-ready web applications and high-performance UI using React, Next.js (App Router), TypeScript, and Tailwind CSS.</p>
                       <br />
-                      <p>Strong focus on designing scalable APIs, interactive frontend systems, and operational software used by cross-functional teams.</p>
+                      <p>Strong background delivering fast, clean landing pages and multi-page websites from Figma designs, focusing on reusable components, SEO best practices, and Core Web Vitals optimization.</p>
                       <br />
-                      <p>Experienced in React, TypeScript, Node.js, and cloud-based architectures, with a track record of delivering end-to-end features across product and engineering teams.</p>
+                      <p>Experienced in agile environments shipping features quickly without overengineering.</p>
                     </motion.div>
                   </div>
               </div>

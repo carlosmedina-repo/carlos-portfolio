@@ -6,15 +6,7 @@ import SkillsData from "../data/SkillsData";
 const Skills = () => {
   const [activeTab, setActiveTab] = useState("frontend");
 
-  const {
-    Frontend,
-    Backend,
-    DataVisualization,
-    Databases,
-    CloudInfra,
-    Tools,
-    Architecture,
-  } = SkillsData;
+  const { Frontend, UIUX, PerformanceSEO, TestingQuality, Tools } = SkillsData;
 
   const skillEffect = {
     y: 0,
@@ -25,13 +17,11 @@ const Skills = () => {
   };
 
   const tabData = [
-    { id: "frontend", label: "Frontend", data: Frontend },
-    { id: "backend", label: "Backend", data: Backend },
-    { id: "datavisualization", label: "Data Visualization", data: DataVisualization },
-    { id: "databases", label: "Databases", data: Databases },
-    { id: "cloudinfra", label: "Cloud Infrastructure", data: CloudInfra },
-    { id: "tools", label: "Tools", data: Tools },
-    { id: "architecture", label: "Architecture", data: Architecture },
+    { id: "frontend", label: "Frontend Development", data: Frontend },
+    { id: "uiux", label: "UI / UX Implementation", data: UIUX },
+    { id: "performance", label: "Performance & SEO", data: PerformanceSEO },
+    { id: "testing", label: "Testing & Quality", data: TestingQuality },
+    { id: "tools", label: "Tools & Collaboration", data: Tools },
   ];
 
   return (

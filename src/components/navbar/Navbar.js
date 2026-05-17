@@ -132,14 +132,13 @@ const Navbar = ({ nav, handleNav }) => {
 							smooth={true}
 							offset={0}
 							duration={500}
-							to='services'
+							to='works'
 							className='mid-links'>
-							<BiServer className='mid-icon' />
+							<BiBookContent className='mid-icon' />
 							<li className='mid-link' onClick={handleNav}>
-								Services
+								Works
 							</li>
 						</Link>
-						<Link
 							activeClass='active'
 							spy={true}
 							smooth={true}
